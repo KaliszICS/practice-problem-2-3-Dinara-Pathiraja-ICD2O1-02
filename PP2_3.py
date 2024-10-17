@@ -17,7 +17,7 @@ def q1():
     print("-s")
   
 def q2(): 
-  num= input ("In:")
+  num= input ("In: ")
   num1 = int(num)
   if(num1>0):
     print(f"{num1} is positive")
