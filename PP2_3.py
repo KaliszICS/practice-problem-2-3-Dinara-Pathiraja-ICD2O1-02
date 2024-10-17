@@ -32,7 +32,6 @@ def q3():
   side2= float(side2)
   side3 = input("Input a number: ")
   side3= float(side3)
-  #if ((side1+side2>side3) or(side2+side3>side1) or (side1+side3>side2)):
   if(side1==side2==side3):
     print("Equilateral")
   elif((side1 == side2 != side3) or (side1 == side3 != side2)or (side2 == side3 != side1)):
